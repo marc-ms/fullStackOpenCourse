@@ -1,6 +1,6 @@
 # form
 
-<div class="mermaid">
+```mermaid
 sequenceDiagram
 participant browser
 participant server
@@ -34,5 +34,4 @@ browser ->>server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
 activate server
 server -->> browser: JSON-file[data.json]
 deactivate server
-
-</div>
+```
